@@ -25,7 +25,9 @@ h2{
 
 .container{
     width: 1024px;
-    float: center;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 
 }
 
@@ -38,7 +40,8 @@ h2{
 }
 
 img{
-    margin: 10px;
+    display: block;
+    margin: 0 auto;
 }
 #contact-info{
     width: 30%;
